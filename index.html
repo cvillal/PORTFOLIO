@@ -6,17 +6,37 @@
         <title>Carolina Villalobos</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="" async defer></script>
         <script src="" async defer></script>
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="homepage.css">
 
     </head>
     <body>
        <section>
             <div>
                 <h1>Carolina Villalobos</h1>
-                <nav><h4>BIO RESUME PROJECTS CONTACT</h4></nav>
-                <nav><button>LinkedIn</button><button>GitHub</button></nav>
+                <nav>
+                    <h4>
+                        <div class="navbar">
+                            <div class="firstTwo">
+                                <a href="bio.html" target="_blank" style="text-decoration:none">BIO</a>
+                                <a href="resume.html" target="_blank" style="text-decoration:none">RESUME</a>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropdwn">PROJECTS</button>
+                                <div class="dropdown-content">
+                                    <a href=project1.html>PROJECT 1</a>
+                                    <a href=project2.html>PROJECT 2</a>
+                                    <a href=project3.html>PROJECT 3</a></div>
+                            </div>
+                            <div class="lastOne">
+                            <a href="contactme.html" target="_blank" style="text-decoration:none">CONTACT</a>
+                            </div>
+                        </div>
+                    </h4>
+                </nav>
+                <nav><button id="media">LinkedIn</button><button id="media">GitHub</button></nav>
             </div>
        </section>
 
@@ -27,7 +47,7 @@
             
             <div>
                 <h2>Project 1 Description</h2>
-                <p>description unfolds on mouseover</p>
+                <p>description unfolds on mouseover Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam exercitationem neque voluptatum quisquam itaque quia sunt doloribus! Id ut optio quas nulla debitis molestiae hic rerum esse nobis, eligendi ipsa?</p>
                 <button>click to learn more</button>
             </div>
        </section>
@@ -35,7 +55,7 @@
        <section class="project2">
             <div>
                 <h2>Project 2 Description</h2>
-                <p>description unfolds on mouseover</p>
+                <p>description unfolds on mouseover Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio saepe, iusto nemo rerum accusantium blanditiis rem possimus obcaecati enim. Tempore accusamus amet doloribus consequatur excepturi temporibus omnis voluptatum mollitia suscipit.</p>
                 <button>click to learn more</button>
             </div>
             <div>
@@ -50,10 +70,11 @@
             
             <div>
                 <h2>Project 3 Description</h2>
-                <p>description unfolds on mouseover</p>
+                <p>description unfolds on mouseover Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quas odit explicabo sequi reiciendis minus tempora sed, illo dolorem corrupti doloribus ratione et quo officia vitae nostrum provident non molestias?</p>
                 <button>click to learn more</button>
             </div>
         </section>
+
        <section>
             <footer>Lets Connect!</footer>
        </section>

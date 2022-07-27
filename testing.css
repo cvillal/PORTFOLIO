@@ -1,0 +1,82 @@
+nav{
+    display: flex;
+    border: 2px solid red;
+    /* position:fixed; */
+    /* width: 100%;
+    z-index: 100%; */
+}
+
+.logo {
+    border: 2px solid blue;
+    text-align: left;
+    width:50em;
+    /* padding: 50%; */
+}
+h1{
+    border: 2px solid yellow;
+    margin-top:70px;
+   
+}
+
+nav ul {
+    display: flex;
+    border: 2px solid black;
+    margin-left: 20%;
+    padding: 30px;
+}
+
+nav ul li{
+    padding: 10px;
+    list-style: none;
+    border: 2px solid brown;
+    margin-top: 5%;
+}
+
+nav ul li a {
+    list-style: none;
+    padding:2em;
+    border: 2px solid pink;
+    display: block;
+    text-decoration: none;
+
+    
+
+}
+
+.buttons {
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 2em;
+}
+
+#media {
+    padding: 20px;
+    font-size: 10pxx;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10px;
+   
+}
+button a {
+    text-align: center;
+    border: 2px solid purple;
+    margin-left: -20px;
+    text-decoration: none;
+}
+/* .wrapper {
+dive to put everything into like the body but more flexible
+
+}
+
+.container {
+    dive to put stuff into
+    border: 
+    position absolute
+}
+
+
+relative to element before it */

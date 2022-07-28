@@ -2,76 +2,51 @@
 <html>
     <head>
         <meta charset="utf-8">
-       
-        <title>Carolina Villalobos</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CV Project 2</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <script src="" async defer></script>
-        <script src="" async defer></script>
+        <script src="homepage.js" async defer></script>
         <link rel="stylesheet" href="homepage.css">
-
     </head>
     <body>
-       <section>
-            <div class="navigationMenu">
-                <nav>
-                    <h1>Carolina Villalobos</h1>
-                        <ul class="menu">
-                            <li><a href="bio.html" target="_blank">BIO</a></li>
-                            <li><a href="resume.html" target="_blank">RESUME</a></li>
-                            <li><a href="#">PROJECTS</a>
-                              <!-- <ul>
-                                <li><a href="project1.html" target="_blank">Project-1</a></li>
-                                <li><a href="project2.html" target="_blank">Project-2</a></li>
-                                <li><a href="project3.html" target="_blank">project-3</a></li>
-                              </ul> -->
-                              </li>
-                            <li><a href="contactme.html" target="_blank">CONTACT ME</a></li>
-                          </ul>
-                            <button id="media"><a href="https://www.linkedin.com/in/cvillal/">LinkedIn</a></button>
-                            <button id="media"><a href="https://github.com/cvillal">GitHub</a></button>
-                    </nav>
+       <nav>
+            <div class="logo">
+                <h1>Carolina Villalobos</h1>
             </div>
-       </section>
-
+            <ul>
+                <li><a href="bio.html" target="_blank">BIO</a></li>
+                <li><a href="resume.html" target="_blank">RESUME</a></li>
+                <li id="projects"><a href="">PROJECTS</a>
+                    <ul class="submenu">
+                        <li><a href="project1.html" target="_blank">Project-1</a></li>
+                        <li><a href="project2.html" target="_blank">Project-2</a></li>
+                        <li><a href="project3.html" target="_blank">project-3</a></li>
+                   </ul>
+                </li>
+                <li><a href="contactme.html" target="_blank">CONCTACTME</a></li>
+            </ul>
+            <div class="buttons">
+                <button id="media"><a href="https://www.linkedin.com/in/cvillal/" target="_blank">LinkedIn</a></button>
+                <button id="media"><a href="https://github.com/cvillal" target="blank">GitHub</a></button>
+            </div>
+       </nav>
        <section class="project1">
-            <div>
-                <img>carousel</img>
-            </div>
-            
-            <div>
-                <h2>Project 1 Description</h2>
-                <p>description unfolds on mouseover Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam exercitationem neque voluptatum quisquam itaque quia sunt doloribus! Id ut optio quas nulla debitis molestiae hic rerum esse nobis, eligendi ipsa?</p>
-                <button>click to learn more</button>
-            </div>
-       </section>
-       
-       <section class="project2">
-            <div>
-                <h2>Project 2 Description</h2>
-                <p>description unfolds on mouseover Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio saepe, iusto nemo rerum accusantium blanditiis rem possimus obcaecati enim. Tempore accusamus amet doloribus consequatur excepturi temporibus omnis voluptatum mollitia suscipit.</p>
-                <button>click to learn more</button>
-            </div>
-            <div>
-                <img>carousel</img>
-            </div>
-       </section>
-
-       <section class="project3">
-            <div>
-                <img>carousel</img>
-            </div>
-            
-            <div>
-                <h2>Project 3 Description</h2>
-                <p>description unfolds on mouseover Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quas odit explicabo sequi reiciendis minus tempora sed, illo dolorem corrupti doloribus ratione et quo officia vitae nostrum provident non molestias?</p>
-                <button>click to learn more</button>
-            </div>
-        </section>
-
-       <section>
-            <footer>Lets Connect!</footer>
-       </section>
+        <div id="carouselone">
+            <img>carousel</img>
+            <img src="" alt="prject1 picture">
+            <img src="" alt="project1 picture2">
+            <img src="" alt="project1 picture3">
+        </div>
+        
+        <div class="descriptionone">
+            <h2>Project 1 Description</h2>
+            <p>description unfolds on mouseover Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam exercitationem neque voluptatum quisquam itaque quia sunt doloribus! Id ut optio quas nulla debitis molestiae hic rerum esse nobis, eligendi ipsa?</p>
+            <button>click to learn more</button>
+        </div>
+   </section>
+        
+        
     </body>
 </html>

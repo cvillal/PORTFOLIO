@@ -21,7 +21,7 @@ h1{
 nav ul {
     display: flex;
     border: 2px solid black;
-    margin-left: 20%;
+    margin-left: 10%;
     padding: 30px;
 }
 
@@ -38,9 +38,22 @@ nav ul li a {
     border: 2px solid pink;
     display: block;
     text-decoration: none;
+}
+nav ul li:hover {
+    background: gray;
+}
 
-    
+.submenu {
+    position:absolute;
+    display:none;
+}
 
+nav ul li:hover ul {
+    display: none;
+}
+
+nav ul ul:hover li {
+    display:block;
 }
 
 .buttons {
@@ -49,6 +62,8 @@ nav ul li a {
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 2em;
+    position: fixed;
+    margin-left:92%;
 }
 
 #media {

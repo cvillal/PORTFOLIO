@@ -17,4 +17,15 @@
     -managed to get a dropdown buttom/menu based on wome W3 examples but I have not been able to customize it
     -having a hard time with alignment/inline-block/float etc to get the elements to where I need them
 
-       
+//DAY2
+
+//DropDownMenu
+    I found several examples and they all suggested similar yet different things. Ended up going w what I originally have UL>IL and then through CSS did some styling according to the example. tested it on a separate file and it workes as i wanted it to.
+
+    worked with sami. he recommended i just focus on the nav bar and make all of it function first before moving on to the next part.
+
+    started over and nav bar turned out pretty well, still no complete success on the drop down menu but going to work on jquery tomorrow to make it work through there instead of html and css.
+
+    got linked in and github buttons working and positioned -1 success!
+
+    layouts not very responsive/fluid

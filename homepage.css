@@ -119,6 +119,7 @@ relative to element before it */
     display:block;
     transition: background-image 1s ease-in-out;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .carousel1-images img {
@@ -152,10 +153,11 @@ relative to element before it */
 .descriptionone p {
     border: 2px solid pink;
     text-align: left;
-    /* margin-top: 60%;
-    margin-bottom: 20%; */
-    display: flex;
+    /* margin-top: 60%; */
+    /* margin-bottom: 20%; */
+    display: none;
     /* margin-left: -40%; */
+    position:absolute;
 }
 
 .descriptionone button {

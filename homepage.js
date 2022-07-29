@@ -8,8 +8,6 @@ $(document).ready(function(){
     $('.submenu').toggle();
     })
    
-    
-
 })
 
 // on scroll to .project1 start displying images at a speed of x
@@ -66,10 +64,19 @@ function changeImg(){
 
 // $('#imagethree').show('slow').delay('3000');
 // $('#imagethree').hide('slow');
-    
 
 
+// $('#PoneDescription').hide()
 
+    $('#pOne').on('click', function(){
+    $('#pOneDescription').slideToggle("slow");
+   
+})
+
+// $('#pOne').on('click', function(){
+//     $('#pOneDescription').hide();
+      
+// })
 
 
 

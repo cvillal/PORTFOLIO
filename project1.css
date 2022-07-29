@@ -98,3 +98,18 @@ button a {
     background-repeat: no-repeat;
 
 }
+
+.modalButton {
+        padding: 10px;
+        background:rgba(255,255,255,0.5);
+        border-radius: 10px;
+}
+
+#buttonOne {
+    position:relative;
+    margin: 25% 80% 80% 5%;
+}
+
+/* #buttonTwo {
+    margin: 5% 80% 80% 25%;
+} */

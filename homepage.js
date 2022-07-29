@@ -3,9 +3,13 @@ $(() => {
 $('.submenu').hide()
 
 $(document).ready(function(){
+    setInterval(changeImg, 1000)
     $('#projects').hover(function(){
     $('.submenu').toggle();
     })
+   
+    
+
 })
 
 // on scroll to .project1 start displying images at a speed of x
@@ -42,17 +46,27 @@ images[2] = "https://i.imgur.com/j6RbFqx.jpg";
 //change image
 
 function changeImg(){
-    document.slide.src = images[i];
+    // document.slide.src = images[i];
     if(i < images.length -1){
         i++;
     } else{
         i=0;
     }
-    setTimeout("changeImg()", time);
+   console.log("changeImg")
+    $('.carousel1-images').css("background-image", `url("${images[i]}")`)
 }
 
 
+// $('.carousel1-images').hide()
 
+// $('.project1').on('scroll')
+
+// $('#imagetwo').show('slow').delay('3000');
+// $('#imagetwo').hide('slow');
+
+// $('#imagethree').show('slow').delay('3000');
+// $('#imagethree').hide('slow');
+    
 
 
 

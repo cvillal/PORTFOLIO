@@ -117,12 +117,22 @@ relative to element before it */
     height: 200px;
     margin-top: 20%;
     display:block;
+    transition: background-image 1s ease-in-out;
+    background-size: contain;
 }
 
 .carousel1-images img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+#imagetwo {
+    display: none;
+}
+
+#imagethree {
+    display: none;
 }
 
 .descriptionone {

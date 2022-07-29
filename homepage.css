@@ -108,11 +108,21 @@ relative to element before it */
     margin-top: 10%;
 }
 
-#carouselone {
+.carousel1-images {
     display: flex;
     border: 2px solid blue;
-    margin: 10%;
-    padding: 20em;
+    /* margin: 10%;
+    padding: 20em; */
+    width: 100%;
+    height: 200px;
+    margin-top: 20%;
+    display:block;
+}
+
+.carousel1-images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .descriptionone {
@@ -132,10 +142,10 @@ relative to element before it */
 .descriptionone p {
     border: 2px solid pink;
     text-align: left;
-    margin-top: 60%;
-    margin-bottom: 20%;
+    /* margin-top: 60%;
+    margin-bottom: 20%; */
     display: flex;
-    margin-left: -40%;
+    /* margin-left: -40%; */
 }
 
 .descriptionone button {
@@ -145,8 +155,15 @@ relative to element before it */
     width: 10%;
     text-align: center;
     text-decoration: none;
-    margin: 40% 40% 20% 3%;
+    margin: 20% 20% 20% 3%;
     border-radius: 10px;
     position:absolute;
  
 }
+
+/* carousel1 */
+
+.carousel1-images img:first-of-type {
+    display:block;
+}
+

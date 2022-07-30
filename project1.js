@@ -1,5 +1,7 @@
 $(() => {
 
+   
+    
 $('.submenu').hide()
 
 $(document).ready(function(){
@@ -8,6 +10,24 @@ $(document).ready(function(){
     })
    
 })
+
+$(".modalButton").on("click", function(){
+    $(".popup-content").addClass("active");
+});
+
+$(".close, .popup").on("click", function(){
+    $(".popup-content").removeClass("active");
+});
+
+$(".modalButton2").on("click", function(){
+    $(".popup-content2").addClass("active");
+});
+
+$(".close2, .popup").on("click", function(){
+    $(".popup-content2").removeClass("active");
+});
+
+
 
 
 })

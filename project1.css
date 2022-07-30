@@ -96,19 +96,53 @@ button a {
     background-size:60%;
     background-position: center;
     background-repeat: no-repeat;
+    z-index:initial;
 
 }
-
+/* 
 .modalButton {
         padding: 10px;
         background:rgba(255,255,255,0.5);
         border-radius: 10px;
-}
+} */
 
-#buttonOne {
+/* #buttonOne {
     position:relative;
     margin: 25% 80% 80% 5%;
+} */
+
+/* popupButonOne */
+
+.popup-overlay {
+    visibility:hidden;
 }
+.popup-content {
+    visibility:hidden;
+}
+
+.popup-overlay.active{
+    visibility:visible;
+    }
+    
+.popup-content.active {
+    visibility:visible;
+    }
+/* 
+popupButtonTwo */
+.popup-overlay2 {
+    visibility:hidden;
+}
+.popup-content2 {
+    visibility:hidden;
+}
+
+.popup-overlay2.active{
+    visibility:visible;
+    }
+    
+.popup-content2.active {
+    visibility:visible;
+    }
 
 /* #buttonTwo {
     margin: 5% 80% 80% 25%;

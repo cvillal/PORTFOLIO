@@ -1,22 +1,59 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+
 <html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>CV Project 3</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <script src="" async defer></script>
-        <link rel="stylesheet" href="">
+        <script src="project3.js" async defer></script>
+        <link rel="stylesheet" href="project3.css">
+        
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        
+        <nav>
+          <div class="logo">
+              <h1>Carolina Villalobos</h1>
+          </div>
+          <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="bio.html" target="_blank">BIO</a></li>
+              <li><a href="resume.html" target="_blank">RESUME</a></li>
+              <li id="projects"><a href="">PROJECTS</a>
+                  <ul class="submenu">
+                      <li><a href="project1.html" target="_blank">Project-1</a></li>
+                      <li><a href="project2.html" target="_blank">Project-2</a></li>
+                      <li><a href="project3.html" target="_blank">project-3</a></li>
+                </ul>
+              </li>
+              <li><a href="contactme.html" target="_blank">CONCTACTME</a></li>
+          </ul>
+          <div class="buttons">
+              <button id="media"><a href="https://www.linkedin.com/in/cvillal/" target="_blank">LinkedIn</a></button>
+              <button id="media"><a href="https://github.com/cvillal" target="blank">GitHub</a></button>
+          </div>
+        </nav>
+      <!-- //i followed this example for my modal pop-up https://www.pair.com/support/kb/how-to-use-jquery-to-generate-modal-pop-up-when-clicked/#:~:text=A%20modal%20box%20is%20a,a%20modal%20box%20with%20jQuery. -->
+
+        <div class="main">
+            <h2>PROJECT 3: Restaurant Menu Site</h2>
+          <button class="modalButton" id="buttonOne">open example1</button>
+            <div class="popup-overlay">
+              <div class="popup-content">
+                <h2>modal example</h2>
+                <p>This project involved making a restaurant menu incorporating google fonts </p>
+                <button class="close">Close</button>
+              </div>
+          </div>
+          <button class="modalButton2" id="buttonTwo">open example2</button>
+          <div class="popup-overlay2">
+            <div class="popup-content2">
+              <h2>modal example</h2>
+              <p>Each menu item had its name and cost readily available but expanded on click to revel the description and ingredients</p>
+              <button class="close2">Close</button>
+            </div>
+        </div>
     </body>
 </html>

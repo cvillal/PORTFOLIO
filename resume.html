@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
     <head>
         <meta charset="utf-8">
@@ -10,13 +6,38 @@
         <title>CV RESUME</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="resume.js" async defer></script>
+        <link rel="stylesheet" href="resume.css">
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <nav>
+            <div class="logo">
+                <h1>Carolina Villalobos</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="bio.html" target="_blank">BIO</a></li>
+                <li><a href="resume.html" target="_blank">RESUME</a></li>
+                <li id="projects"><a href="">PROJECTS</a>
+                    <ul class="submenu">
+                        <li><a href="project1.html" target="_blank">Project-1</a></li>
+                        <li><a href="project2.html" target="_blank">Project-2</a></li>
+                        <li><a href="project3.html" target="_blank">project-3</a></li>
+                  </ul>
+                </li>
+                <li><a href="contactme.html" target="_blank">CONCTACTME</a></li>
+            </ul>
+            <div class="buttons">
+                <button id="media"><a href="https://www.linkedin.com/in/cvillal/" target="_blank">LinkedIn</a></button>
+                <button id="media"><a href="https://github.com/cvillal" target="blank">GitHub</a></button>
+            </div>
+          </nav>
+        <div id="resume">
+            <img src="https://i.imgur.com/hJapest.png">
+            <img src="https://i.imgur.com/K15jPUF.png">
+        </div>
         
-        <script src="" async defer></script>
+      
     </body>
 </html>

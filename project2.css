@@ -1,0 +1,154 @@
+/* navigation section */
+
+nav{
+    display: flex;
+    border: 2px solid red;
+    /* position:fixed; */
+    /* width: 100%;
+    z-index: 100%; */
+}
+
+.logo {
+    border: 2px solid blue;
+    text-align: left;
+    width:50em;
+    /* padding: 50%; */
+}
+h1{
+    border: 2px solid yellow;
+    margin-top:70px;
+   
+}
+
+nav ul {
+    display: flex;
+    border: 2px solid black;
+    margin-left: 10%;
+    padding: 30px;
+}
+
+nav ul li{
+    padding: 10px;
+    list-style: none;
+    border: 2px solid brown;
+    margin-top: 5%;
+}
+
+nav ul li a {
+    list-style: none;
+    padding:2em;
+    border: 2px solid pink;
+    display: block;
+    text-decoration: none;
+}
+nav ul li:hover {
+    background: gray;
+}
+
+.submenu {
+    position:absolute;
+    display:block;
+    margin-left: -2%;
+    
+}
+
+nav ul li:hover ul {
+    display: none;
+}
+
+nav ul ul:hover li {
+    display:block;
+}
+
+.buttons {
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 2em;
+    position: fixed;
+    margin-left:92%;
+}
+
+#media {
+    padding: 20px;
+    font-size: 10pxx;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10px;
+   
+}
+button a {
+    text-align: center;
+    border: 2px solid purple;
+    margin-left: -20px;
+    text-decoration: none;
+}
+
+
+.main {
+    border: 2px solid red;
+    margin:5%;
+    padding: 20%;
+    background-image: url('https://i.imgur.com/Ae1aeti.jpg');
+    background-size:60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index:initial;
+
+}
+h2 {
+    padding: 10%;
+    margin-top: 5%;
+    text-align: center;
+}
+/* 
+.modalButton {
+        padding: 10px;
+        background:rgba(255,255,255,0.5);
+        border-radius: 10px;
+} */
+
+/* #buttonOne {
+    position:relative;
+    margin: 25% 80% 80% 5%;
+} */
+
+/* popupButonOne */
+
+.popup-overlay {
+    visibility:hidden;
+}
+.popup-content {
+    visibility:hidden;
+}
+
+.popup-overlay.active{
+    visibility:visible;
+    }
+    
+.popup-content.active {
+    visibility:visible;
+    }
+/* 
+popupButtonTwo */
+.popup-overlay2 {
+    visibility:hidden;
+}
+.popup-content2 {
+    visibility:hidden;
+}
+
+.popup-overlay2.active{
+    visibility:visible;
+    }
+    
+.popup-content2.active {
+    visibility:visible;
+    }
+
+/* #buttonTwo {
+    margin: 5% 80% 80% 25%;
+} */

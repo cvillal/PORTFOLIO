@@ -152,3 +152,16 @@ popupButtonTwo */
 /* #buttonTwo {
     margin: 5% 80% 80% 25%;
 } */
+@media only screen and (max-width:800px){
+    nav {
+        display: block;
+    }
+    nav ul {
+        display:block;
+    }
+    .buttons{
+        position:fixed;
+        margin-left: 45%;
+        display: inline-block;   
+    }
+}

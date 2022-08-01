@@ -99,3 +99,12 @@ form{
     text-align: center;
    margin:100%
 } */
+
+@media only screen and (max-width:800px){
+    nav {
+        display: block;
+    }
+    nav ul {
+        display:block;
+    }
+}

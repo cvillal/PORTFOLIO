@@ -100,20 +100,33 @@ button a {
 
 }
 
-.bioDiv{
+#bioDiv{
     border: 2px solid red;
     display: block;
-    margin:20%
+    margin:30%;
+    background-image: url(https://i.imgur.com/BEzvB21.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:0%;
+    /* opacity: .6; */
 }
 
+
+
 h2{
+    margin: 15% 0% -20% 0%;
     text-align: center;
     
 }
+
 p{
     border: 2px solid blueviolet;
     line-height: 2;
     text-align: justify;
-    margin: 10%
+    color: black;
+    font-weight: bolder;
+    margin: 10%;
+    background: white;
+    opacity: .6;
     
 }

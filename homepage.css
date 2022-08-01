@@ -208,3 +208,6 @@ $p {
 .contactme.active {
     visibility:visible;
     }
+
+@media screen and (
+    max-width : 800px;){}

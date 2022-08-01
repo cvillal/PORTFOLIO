@@ -130,3 +130,17 @@ p{
     opacity: .6;
     
 }
+
+@media only screen and (max-width:800px){
+    nav {
+        display: block;
+    }
+    nav ul {
+        display:block;
+    }
+
+    #bioDiv{
+        display:block;
+        margin: 0%;
+    }
+}

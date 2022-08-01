@@ -209,5 +209,16 @@ $p {
     visibility:visible;
     }
 
-@media screen and (
-    max-width : 800px;){}
+@media only screen and (max-width:800px){
+        nav {
+            display: block;
+        }
+        nav ul {
+            display:block;
+        }
+        .buttons{
+            position:fixed;
+            display: inline-block;
+            
+        }
+    }

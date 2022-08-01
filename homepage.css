@@ -218,7 +218,9 @@ $p {
         }
         .buttons{
             position:fixed;
+            margin-left: 45%;
             display: inline-block;
+            
             
         }
     }

@@ -68,8 +68,11 @@ function changeImg(){
 
 // $('#PoneDescription').hide()
 
-    $('#pOne').on('click', function(){
-    $('#pOneDescription').slideToggle("slow");
+$('#pOne').on('click', function(){
+    $('#pOneDescription').slideToggle('slow');
+
+// $('#pOne').on('click', function(){
+//    
    
 })
 
@@ -81,8 +84,24 @@ function changeImg(){
 
 
 
+// {/* <div class="popup-overlay">
+//               <div class="popup-content">
+//                 <h2>modal example</h2>
+//                 <p>This project involved making a blog for a teacher</p>
+//                 <button class="close">Close</button>
+//               </div> */}
 
+let $div= $('<div>').attr('class', 'popup-content').appendTo('#popup-overlay');
+let $p= $('<p>').attr('class', 'contactme').text('CALL ME MAYBE').appendTo('#popup-overlay');
+let $button = $('<button>').attr('class', 'close').appendTo('.contactme');
 
+$("#popup-overlay").on("click", function(){
+    $(".popup-content").addClass('active');
+});
+
+$(".close, .popup").on("click", function(){
+    $(".popup-content").removeClass('active');
+});
 
 
 })

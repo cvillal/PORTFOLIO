@@ -30,4 +30,8 @@ $(".close2, .popup").on("click", function(){
 
 
 
+
+
+
+
 })

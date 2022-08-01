@@ -158,7 +158,14 @@ relative to element before it */
     display: none;
     /* margin-left: -40%; */
     position:absolute;
+    /* visibility: hidden; */
 }
+/* .pOneDescription {
+    visibility: hidden;
+}
+.pOneDescription {
+    visibility: visible;
+} */
 
 .descriptionone button {
     /* display: flex; */
@@ -179,3 +186,25 @@ relative to element before it */
     display:block;
 }
 
+$p {
+    border: 5px solid black;
+    /* visibility: hidden; */
+}
+
+/* $p {
+    visibility: visible;
+} */
+#popup-content{
+    visibility:hidden;
+}
+.contactme {
+    visibility:hidden;
+}
+
+#popup-content.active{
+    visibility:visible;
+    }
+    
+.contactme.active {
+    visibility:visible;
+    }

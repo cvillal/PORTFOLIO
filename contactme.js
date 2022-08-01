@@ -10,4 +10,18 @@ $(() => {
        
     })
 
+    // when submit button is clicked popup prints (`${name}`) + 'you submited your email! Carolina will be in touch soon :)')
+    
+    // const submission =() => {
+    //     prompt (`${$nameText} + "you submited your email! Carolina will be in touch soon :)"`);
+    // }
+    
+    // $('#submit').on('click', submission);
+   
+    // $('#submit').click(function(){
+    //     alert("you submited your email! Carolina will be in touch soon :)");
+    // });
+   
+
+    // print(`${$nameText} + " you submited your email! Carolina will be in touch soon :)"`);
 })

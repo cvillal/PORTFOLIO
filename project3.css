@@ -121,7 +121,7 @@ border-radius: 10px;
 }
 
 #modal1{
-border: 2px solid black;
+/* border: 2px solid black; */
 margin: 45% 83% 80% -16%;
 color: black;
 font-size: small;
@@ -148,7 +148,7 @@ border-radius: 10px;
 }
 
 #modal2 {
-border: 2px solid black;
+/* border: 2px solid black; */
 margin: -55% 83% 60% -20%;
 color: black;
 text-align: right;
@@ -224,4 +224,8 @@ popupButtonTwo */
     }
     #modal1{
         margin: 30% 30% 95% 30%;
+}
+    #modal2{
+        margin: 0% 30% 20% 30%;
+    }
 }

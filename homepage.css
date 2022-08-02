@@ -1,50 +1,80 @@
 
 /* NAVSECTION */
-
+body{
+    background: #ececec;
+}
+/* #picture {
+    margin:10%;
+    padding:20%
+    background-image:url(https://i.imgur.com/4j6A0m2.jpg);
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index:initial;
+} */
 nav{
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* position:fixed; */
     /* width: 100%;
     z-index: 100%; */
     font-family: 'Didact Gothic', sans-serif;
+    padding: 10% 0% 10% 0%;
+    /* background-image: url(https://i.imgur.com/4j6A0m2.jpg);
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index:initial;
+    margin:5%; */
+    
 }
 
 .logo {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     text-align: left;
-    width:50em;
+    width: 50em;
+    /* width:80px; */
     /* padding: 50%; */
+  
 }
+
 h1{
-    border: 2px solid yellow;
-    margin-top:70px;
-   
+    /* border: 2px solid yellow; */
+    margin-top:200px;
+    color: #9fd3c7;
+    font-weight: bold;
+    background: #385170;
 }
 
 nav ul {
     display: flex;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-left: 8%;
     padding: 30px;
+    /* margin-top: -15%; */
+    /* margin-bottom: 30%; */
+    
 }
 
 nav ul li{
     padding: 10px;
     list-style: none;
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
+    border-radius: 10px;
     margin-top: 5%;
 }
 
 nav ul li a {
     list-style: none;
     padding:2em;
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
     display: block;
     text-decoration: none;
+    color: #67bac6;
 }
 nav ul li:hover {
     background: gray;
+   
 }
 
 .submenu {
@@ -63,19 +93,20 @@ nav ul ul:hover li {
 }
 
 .buttons {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     text-align: center;
-    margin-top: 15px;
+    margin-top: -25px;
     margin-bottom: 15px;
     padding: 2em;
     position: fixed;
     margin-left:92%;
     font-family: 'Didact Gothic', sans-serif;
+    
 }
 
 #media {
     padding: 20px;
-    font-size: 10pxx;
+    font-size: 10px;
     width: 55px;
     text-align: center;
     text-decoration: none;
@@ -85,7 +116,7 @@ nav ul ul:hover li {
 }
 button a {
     text-align: center;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     margin-left: -20px;
     text-decoration: none;
 }
@@ -107,17 +138,17 @@ relative to element before it */
 
 .project1 {
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 10%;
     font-family: 'Didact Gothic', sans-serif;
 }
 
 .carousel1-images {
     display: flex;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     /* margin: 10%;
     padding: 20em; */
-    width: 100%;
+    width: 60%;
     height: 200px;
     margin-top: 20%;
     display:block;
@@ -141,27 +172,36 @@ relative to element before it */
 }
 
 .descriptionone {
-    display:flex;
-    border: 2px solid black;
-    margin: 10% 10% 10% 0%;
+    display:inline-block;
+    /* border: 2px solid black; */
+    margin: 10% 0% 50% 0%;
 }
 
 .descriptionone h2 {
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
     text-align: center;
     margin-bottom: 20em;
     margin-left: 10%;
+    background:#67bac6;
+    color: #385170;
+    border-radius: 10px;
    
 }
 
 .descriptionone p {
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
     text-align: left;
     /* margin-top: 60%; */
     /* margin-bottom: 20%; */
     display: none;
     /* margin-left: -40%; */
     position:absolute;
+    margin-top: -30%;
+    margin-right: 16%;
+    background: gray;
+    color: #67bac6;
+    font-weight: bold;
+    border-radius: 10px;
     /* visibility: hidden; */
 }
 /* .pOneDescription {
@@ -175,14 +215,14 @@ relative to element before it */
     /* display: flex; */
     padding: 20px;
     font-size: 10px;
-    width: 10%;
+    /* width: 10%; */
     text-align: center;
     text-decoration: none;
-    margin: 20% 20% 20% 3%;
+    margin: -20% 20% 20% 3%;
     border-radius: 10px;
     position:absolute;
- 
 }
+
 
 /* carousel1 */
 
@@ -223,8 +263,23 @@ $p {
         .buttons{
             position:fixed;
             margin-left: 45%;
-            display: inline-block;
-            
-            
+            display: inline-block; 
+        }
+        .project1{
+            display:block;
+        }
+        .carousel1-images{
+            margin-left: 20%;
+        }
+        .descriptionone{
+            display: block;
+        }
+        .descriptionone p{
+            position:flex;
+            margin-top: -120% ;
+        }
+        .descriptionone button{
+            margin: -80% 0% 30% 30%;
+            padding: 10%;
         }
     }

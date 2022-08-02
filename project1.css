@@ -95,15 +95,60 @@ h2{
 }
 .main {
     border: 2px solid red;
-    margin:5%;
-    padding: 20%;
+    margin:3%;
+    padding: 3%;
     background-image: url('https://i.imgur.com/7VqBEj7.png');
     background-size:60%;
     background-position: center;
     background-repeat: no-repeat;
     z-index:initial;
+    font-family: 'Didact Gothic', sans-serif;
 
 }
+
+.modalButton {
+    padding: 10px;
+    background:rgba(255,255,255,0.5);
+    border-radius: 10px;
+    /* margin: 10%; */
+}
+
+.close{
+padding: 10px;
+background:rgba(255,255,255,0.5);
+border-radius: 10px;
+}
+
+#modal1{
+/* border: 2px solid black; */
+margin: 5% 75% 8% 8%;
+}
+p{
+    background-color: rgba(255, 255, 255, 0.464);
+    padding:0%;
+}
+.modalButton2 {
+padding: 10px;
+background:rgba(255,255,255,0.5);
+border-radius: 10px;
+}
+
+.close2{
+padding: 10px;
+background:rgba(255,255,255,0.5);
+border-radius: 10px;
+}
+
+#modal2 {
+/* border: 2px solid black; */
+margin: 5% 75% 8% 8%;
+
+color: black;
+text-align: left;
+}
+
+
+
 /* 
 .modalButton {
         padding: 10px;

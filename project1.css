@@ -6,6 +6,7 @@ nav{
     /* position:fixed; */
     /* width: 100%;
     z-index: 100%; */
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 .logo {
@@ -87,7 +88,11 @@ button a {
     text-decoration: none;
 }
 
-
+h2{
+    text-align: center;
+    margin: 5%;
+    font-family: 'Didact Gothic', sans-serif;
+}
 .main {
     border: 2px solid red;
     margin:5%;

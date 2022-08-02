@@ -1,3 +1,4 @@
+
 /* NAVSECTION */
 
 nav{
@@ -6,6 +7,7 @@ nav{
     /* position:fixed; */
     /* width: 100%;
     z-index: 100%; */
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 .logo {
@@ -68,6 +70,7 @@ nav ul ul:hover li {
     padding: 2em;
     position: fixed;
     margin-left:92%;
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 #media {
@@ -106,6 +109,7 @@ relative to element before it */
     display: flex;
     border: 2px solid red;
     margin-top: 10%;
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 .carousel1-images {

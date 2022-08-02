@@ -104,4 +104,12 @@ $(".close, .popup").on("click", function(){
 });
 
 
+$("#media1").on('click', function(){
+    window.location = "https://www.linkedin.com/in/cvillal/";
+});
+
+$("#media2").on('click', function(){
+    window.location = "https://github.com/cvillal";
+});
+
 })

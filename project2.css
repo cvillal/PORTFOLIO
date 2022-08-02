@@ -6,6 +6,7 @@ nav{
     /* position:fixed; */
     /* width: 100%;
     z-index: 100%; */
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 .logo {
@@ -90,27 +91,63 @@ button a {
 
 .main {
     border: 2px solid red;
-    margin:5%;
-    padding: 20%;
+    margin:10%;
+    padding: 5%;
     background-image: url('https://i.imgur.com/Ae1aeti.jpg');
-    background-size:60%;
+    background-size:70%;
     background-position: center;
     background-repeat: no-repeat;
     z-index:initial;
+    font-family: 'Didact Gothic', sans-serif;
 
 }
 h2 {
-    padding: 10%;
+    /* padding: 3%; */
     margin-top: 5%;
     text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
 }
-/* 
+
 .modalButton {
         padding: 10px;
         background:rgba(255,255,255,0.5);
         border-radius: 10px;
-} */
+        /* margin: 10%; */
+}
 
+.close{
+    padding: 10px;
+    background:rgba(255,255,255,0.5);
+    border-radius: 10px;
+}
+
+#modal1{
+    border: 2px solid black;
+    margin: 24% 0% 0% 16%;
+    color: white;
+    font-size: small;
+
+}
+
+.modalButton2 {
+    padding: 10px;
+    background:rgba(255,255,255,0.5);
+    border-radius: 10px;
+}
+
+.close2{
+padding: 10px;
+background:rgba(255,255,255,0.5);
+border-radius: 10px;
+}
+
+#modal2 {
+    border: 2px solid black;
+    margin: -13% 16% 5% 60%;
+    color: white;
+    text-align: right;
+    font-size: small;
+}
 /* #buttonOne {
     position:relative;
     margin: 25% 80% 80% 5%;

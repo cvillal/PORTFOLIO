@@ -6,6 +6,7 @@ nav{
     /* position:fixed; */
     /* width: 100%;
     z-index: 100%; */
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 .logo {
@@ -87,30 +88,80 @@ button a {
     text-decoration: none;
 }
 
-
+h2{
+    border: 2px solid black;
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    padding:0%;
+}
 .main {
     border: 2px solid red;
-    margin:5%;
-    padding: 20%;
+    margin:3%;
+    padding: 15%;
     background-image: url('https://i.imgur.com/GvEhARn.png');
     background-size:60%;
     background-position: center;
     background-repeat: no-repeat;
     z-index:initial;
+    font-family: 'Didact Gothic', sans-serif;
 
-}
-h2 {
-    padding: 30%;
-   
-    text-align: center;
 }
 
 .modalButton {
+    padding: 10px;
+    background:rgba(255,255,255,0.5);
+    border-radius: 10px;
+    /* margin: 10%; */
+}
+
+.close{
+padding: 10px;
+background:rgba(255,255,255,0.5);
+border-radius: 10px;
+}
+
+#modal1{
+border: 2px solid black;
+margin: 45% 83% 80% -16%;
+color: black;
+font-size: small;
+/* background: rgba(255, 255, 255, 0.458); */
+padding: 1%;
+text-align: right;
+
+}
+
+p{
+    background: rgba(255, 255, 255, 0.374);
+}
+
+.modalButton2 {
+padding: 10px;
+background:rgba(255,255,255,0.5);
+border-radius: 10px;
+}
+
+.close2{
+padding: 10px;
+background:rgba(255,255,255,0.5);
+border-radius: 10px;
+}
+
+#modal2 {
+border: 2px solid black;
+margin: -55% 83% 60% -20%;
+color: black;
+text-align: right;
+font-size: small;
+padding:1%;
+}
+
+/* .modalButton {
         padding: 10px;
         background:rgba(255,255,255,0.5);
         border-radius: 10px;
         content:contain;
-}
+} */
 
 /* #buttonOne {
     position:relative;
@@ -166,4 +217,11 @@ popupButtonTwo */
         margin-left: 45%;
         display: inline-block;   
     }
+    .main{
+        display:block;
+        background-size:contain;
+        padding: 0%;
+    }
+    #modal1{
+        margin: 30% 30% 95% 30%;
 }

@@ -4,6 +4,9 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
         <title>CV Project 2</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,23 +40,27 @@
         </nav>
       <!-- //i followed this example for my modal pop-up https://www.pair.com/support/kb/how-to-use-jquery-to-generate-modal-pop-up-when-clicked/#:~:text=A%20modal%20box%20is%20a,a%20modal%20box%20with%20jQuery. -->
 
+        <h2>PROJECT 2: Personal Website</h2>
         <div class="main">
-            <h2>PROJECT 2: Personal Website</h2>
-          <button class="modalButton" id="buttonOne">open example1</button>
+          <div id="modal1">
+          <button class="modalButton" id="buttonOne">example1</button>
             <div class="popup-overlay">
               <div class="popup-content">
-                <h2>modal example</h2>
-                <p>This project involved making a personal website with a NAVBAR with links to the developers Projects by area</p>
+                <!-- <h2>modal example</h2> -->
+                <p>This project involved making a personal<br>website with a NAVBAR with links to<br>the developers projects by area</p>
                 <button class="close">Close</button>
               </div>
           </div>
-          <button class="modalButton2" id="buttonTwo">open example2</button>
+          </div>
+          <div id="modal2">
+          <button class="modalButton2" id="buttonTwo">example2</button>
           <div class="popup-overlay2">
             <div class="popup-content2">
-              <h2>modal example</h2>
-              <p>it needed a contact input box for new clients to sign-up for a newseletter</p>
+              <!-- <h2>modal example</h2> -->
+              <p>it needed a contact input box for <br>new clients to sign-up for a newseletter</p>
               <button class="close2">Close</button>
             </div>
+        </div>
         </div>
     </body>
 </html>

@@ -10,6 +10,11 @@ $(() => {
        
     })
 
+
+    $('form').hide('slow').delay('100')
+    $('form').show('slow')   
+
+
     // when submit button is clicked popup prints (`${name}`) + 'you submited your email! Carolina will be in touch soon :)')
     
     // const submission =() => {

@@ -4,6 +4,7 @@ nav{
     /* position:fixed; */
     /* width: 100%;
     z-index: 100%; */
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 .logo {
@@ -11,6 +12,7 @@ nav{
     text-align: left;
     width:50em;
     /* padding: 50%; */
+   
 }
 h1{
     border: 2px solid yellow;
@@ -66,6 +68,7 @@ nav ul ul:hover li {
     padding: 2em;
     position: fixed;
     margin-left:92%;
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 #media {
@@ -89,11 +92,13 @@ button a {
 
 h1{
     text-align:center;
+    font-family: 'Didact Gothic', sans-serif;
 }
 form{
     border: 2px solid aqua;
     border-radius: 10px;
     text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
 }
 /* #messagebox{
     text-align: center;
